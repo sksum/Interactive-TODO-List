@@ -33,6 +33,10 @@ class App extends React.Component {
     this.setState({list:updatedlist})
 
   }
+  updateInput(input){
+    this.setState({newItem:input});
+  }
+
   render(){
     return(
         <div>
