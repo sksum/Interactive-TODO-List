@@ -40,7 +40,17 @@ class App extends React.Component {
   render(){
     return(
         <div>
-         
+          <img className="App-logo" src={logo} width="100" height="100"/>
+          <h1 className="app-title">TO DO APP</h1>
+          <div className="container">
+            Add an Item... 
+            <br/>
+            <input type="text" className="input-text" 
+            placeholder="Write here "
+            required
+            value={this.state.newItem}
+            onChange={e=> this.updateInput(e.target.value)}
+            />
           <button className="add-btn" onClick={ ()=> this.addItem(this.state.newItem)}
           disabled={!this.state.newItem.length}>
             Add Todo
