@@ -1,3 +1,10 @@
+Basic TO-DO List made using `ReactJS`
+
+##Screenshot
+![image](https://user-images.githubusercontent.com/55682219/96171906-3ae14780-0f43-11eb-9a01-4571ba5ba8d2.png)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
